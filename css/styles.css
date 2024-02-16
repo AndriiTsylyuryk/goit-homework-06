@@ -831,8 +831,8 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-image-tab-2x.jpg);
-  }}
+      url(../images/hero-image-tab-2x.jpg);}}
+  
 
     .main-section-text {
       font-size: 56px;
@@ -861,8 +861,8 @@ img {
 
     .portfolio-list-feature {
       width: calc((100% - 24px) / 2);
-    }
-  }
+    }}
+  
 
   @media screen and (min-width: 1158px) {
     .container {
@@ -881,7 +881,7 @@ img {
         url(../images/hero-image-pc.jpg);
       max-width: 1440px;
     }
-  }
+  
   
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -963,4 +963,4 @@ img {
   .portfolio-list-feature {
     width: calc((100% - 48px) / 3);
   }
-}
+  }
