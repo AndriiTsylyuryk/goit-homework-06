@@ -939,7 +939,7 @@ textarea::placeholder {
   .footer-bottom {
   }
 
-  .footer-bottom > .footer-social {
+  .footer-bottom > .container {
     width: 584px;
   }
 
@@ -1087,5 +1087,29 @@ textarea::placeholder {
 
   .portfolio-list-feature {
     width: calc((100% - 48px) / 3);
+  }
+  .footer-bottom > .container {
+    width: 1158px;
+  }
+
+  .footer-bottom {
+    padding: 100px 0;
+  }
+  .footer-social {
+    align-items: baseline;
+    gap: 0;
+  }
+  .logo-container {
+    margin-right: 120px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .media-contaner {
+    margin-right: auto;
+    margin-left: 120px;
+  }
+  .form-footer {
+    align-items: baseline;
+    gap: 24px;
   }
 }
