@@ -940,6 +940,7 @@ textarea::placeholder {
   }
 
   .footer-bottom > .footer-social {
+    width: 584px;
   }
 
   .footer-social {
@@ -953,7 +954,6 @@ textarea::placeholder {
     max-width: 264px;
   }
   .logo-container {
-    /* jtify-content: start; */
     align-items: start;
   }
   .media-contaner {
@@ -965,9 +965,10 @@ textarea::placeholder {
   }
   .form-footer {
     flex-direction: row;
+    gap: 24px;
   }
-  .input-footer{
-     width: 264px;
+  .input-footer {
+    width: 264px;
   }
 }
 
