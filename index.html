@@ -54,49 +54,72 @@
         </button>
       </div>
       <div class="mob-menu">
-        <button type="button" class="mob-menu-close-btn">
-          <svg class="mob-icon-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-vector"></use>
-          </svg>
-        </button>
-        <nav class="mob-menu-navigation">
-          <ul class="mob-menu-nav-list">
-            <li><a class="mob-menu-nav-link current" href="./index.html">Studio</a></li>
-            <li><a class="mob-menu-nav-link" href="">Portfolio</a></li>
-            <li><a class="mob-menu-nav-link" href="">Contacts</a></li>
+        <div class="mob-menu-top">
+          <button type="button" class="mob-menu-close-btn">
+            <svg class="mob-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </button>
+          <nav class="mob-menu-navigation">
+            <ul class="mob-menu-nav-list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mob-menu-bottom">
+          <address class="address-mob">
+            <ul class="address-list-mob">
+              <li class="address-item">
+                <a class="address-link-mob" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link-mob" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-list-media">
+            <li class="icon-list-item">
+              <a href="" class="mob-list-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list-item">
+              <a href="" class="mob-list-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list-item">
+              <a href="" class="mob-list-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-list-item">
+              <a href="" class="mob-list-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </nav>
-       
-        <ul class="header-mob-list">
-          <li class="mob-icon-list-item">
-            <a href="" class="icon-list-header">
-              <svg class="icon-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-icon-list-item">
-            <a href="" class="icon-list-header">
-              <svg class="icon-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-icon-list-item">
-            <a href="" class="icon-list-header">
-              <svg class="icon-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-icon-list-item">
-            <a href="" class="icon-list-header">
-              <svg class="icon-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -520,11 +543,17 @@
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/10-1x-tab.jpg 1x, ./images/10-2x-tab.jpg 2x"
+                    srcset="
+                      ./images/10-1x-tab.jpg 1x,
+                      ./images/10-2x-tab.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/10-1x-mob.jpg 1x, ./images/10-2x-mob.jpg 2x"
+                    srcset="
+                      ./images/10-1x-mob.jpg 1x,
+                      ./images/10-2x-mob.jpg 2x
+                    "
                   />
                   <img
                     class="portfolio-picture"
@@ -551,7 +580,7 @@
       <div class="container footer-social">
         <div class="logo-container">
           <a class="footer-logo" href="./index.html"
-            >Web <span class="footer-logo-part">Studio</span></a
+            >Web<span class="footer-logo-part">Studio</span></a
           >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
@@ -613,7 +642,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="icon-close" width="8" height="8">
@@ -685,8 +714,9 @@
               <span class="footer-span">
                 <svg class="tick" width="10" height="8">
                   <use href="./images/icons.svg#icon-tick"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="index.html" class="label-link">Privacy Policy</a></label
             >
           </div>
